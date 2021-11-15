@@ -1,0 +1,11 @@
+# unit tests
+pytest
+pytest-cov
+
+# developer tools
+rope
+jedi
+autopep8
+black
+yapf
+flake8
