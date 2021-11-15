@@ -1,11 +1,29 @@
-# hello world
+# python3 generic code template
 
 ## description
 
-## usage
+generic template repository to include the following:
+
+- [x] unit test suite
+- [x] end to end test suite
+- [ ] logger
+- [ ] script to package module
 
 ## local setup
 
-## unit tests
+linux:
+```
+pip3 install virtualenv --user
+python3 -m virtualenv venv
+make install
+```
 
-## acceptance tests
+## unit tests
+```
+make utest
+```
+
+## end to end tests
+```
+make etest
+```
