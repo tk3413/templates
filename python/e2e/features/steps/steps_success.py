@@ -1,19 +1,33 @@
-from behave import *
-from src.hello import hello
+"""
+step implementation for happy paths in code
+
+author: taimore khan
+"""
+
+from behave import given, when, then  # pylint: disable=no-name-in-module
+from src.hello import hello  # pylint: disable=import-error
 
 
 @given("we have some code")
-def step_impl(context):
-    print("HELLO")
-    pass
+def given_hello(context) -> None:
+    """
+    doesn't do much because this code doesn't need setup
+    """
+    context.setup = None
 
 
 @when("it is called")
-def step_impl(context):
+def when_function_is_called(context) -> None:
+    """
+    applies the code under test
+    """
     context.result = hello(name="taimore")
-    print("result is: {}".format(context.result))
+    print(f"result is: {context.result}")
 
 
 @then("we are able to validate the result")
-def step_impl(context):
-    assert True == True
+def then_assert(context):
+    """
+    applies assertion to verify code behaves as expected
+    """
+    assert context.result == "hello taimore"

@@ -2,4 +2,4 @@
 
 black src/ && black e2e/
 
-pylint src/
+pylint src/ && pylint e2e/

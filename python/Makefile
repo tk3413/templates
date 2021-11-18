@@ -9,6 +9,7 @@ lint:
 	black e2e/
 	black test/
 	pylint src/
+	pylint e2e/
 
 install:
 	pip3 install -r requirements.txt
