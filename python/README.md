@@ -7,7 +7,7 @@ generic template repository to include the following:
 - [x] unit test suite
 - [x] end to end test suite
 - [ ] logger
-- [ ] linter
+- [x] linter
 - [ ] script to package module
 
 ## local setup
@@ -27,4 +27,9 @@ make utest
 ## end to end tests
 ```
 make etest
+```
+
+## lint
+```
+make lint
 ```

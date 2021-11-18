@@ -1,6 +1,7 @@
 from behave import *
 from src.hello import hello
 
+
 @given("we have some code")
 def step_impl(context):
     print("HELLO")
@@ -11,6 +12,7 @@ def step_impl(context):
 def step_impl(context):
     context.result = hello(name="taimore")
     print("result is: {}".format(context.result))
+
 
 @then("we are able to validate the result")
 def step_impl(context):
