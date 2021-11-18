@@ -91,17 +91,5 @@ Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 pylint e2e/
 
 --------------------------------------------------------------------
-Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)black src/
-All done! ✨ 🍰 ✨
-2 files left unchanged.
-black e2e/
-All done! ✨ 🍰 ✨
-1 file left unchanged.
-black test/
-All done! ✨ 🍰 ✨
-2 files left unchanged.
-pylint src/
-
---------------------------------------------------------------------
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 ```
