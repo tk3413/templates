@@ -10,3 +10,4 @@ black==21.10b0
 yapf==0.31.0
 flake8==4.0.1
 pylint==2.11.1
+isort==5.10.1

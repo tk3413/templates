@@ -74,22 +74,26 @@ make lint
 ```
 
 ```
-black src/
+sorting imports
+Skipped 1 files
+formatting code
 All done! ✨ 🍰 ✨
 2 files left unchanged.
-black e2e/
 All done! ✨ 🍰 ✨
 1 file left unchanged.
-black test/
+reformatted test/test_hello.py
 All done! ✨ 🍰 ✨
-2 files left unchanged.
-pylint src/
+1 file reformatted, 1 file left unchanged.
+applying linter
 
 --------------------------------------------------------------------
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 
-pylint e2e/
 
 --------------------------------------------------------------------
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.00/10, +2.00)
 ```

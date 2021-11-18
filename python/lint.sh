@@ -1,5 +1,10 @@
 #!/bin/bash
 
-black src/ && black e2e/
+echo "sorting imports"
+isort .
 
-pylint src/ && pylint e2e/
+echo "formatting code"
+black src/ && black e2e/ && black test/
+
+echo "applying linter"
+pylint src/ && pylint e2e/ && pylint test/

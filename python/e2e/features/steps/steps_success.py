@@ -4,7 +4,8 @@ step implementation for happy paths in code
 author: taimore khan
 """
 
-from behave import given, when, then  # pylint: disable=no-name-in-module
+from behave import given, then, when  # pylint: disable=no-name-in-module
+
 from src.hello import hello  # pylint: disable=import-error
 
 
